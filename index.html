@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Guess it right!</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Guess it Right..!</h1>
+
+        <div class="container">
+            <h2>Select Level:</h2>
+            <input type="range" min="1" max="3" value="1" step="1" onchange="levelSelector(this.value)" id="levelSelect"/>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Medium</span>
+                <span>Hard</span>
+            </div>
+            <button onclick="play()">Play</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

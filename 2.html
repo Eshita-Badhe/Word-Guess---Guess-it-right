@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Guess it right!</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Guess it Right..!</h1>
+        <div class="container">
+            <table width="150px" border="0" cellpadding="2" cellspacing="1" align="center" id="table">
+                <tr>
+                    <td><textarea class="l" maxlength="1" oninput="this.value = this.value.toUpperCase()" rows="1" cols="1"></textarea></td>
+                    <td><textarea class="l" maxlength="1" oninput="this.value = this.value.toUpperCase()" rows="1" cols="1"></textarea></td>
+                    <td><textarea class="l" maxlength="1" oninput="this.value = this.value.toUpperCase()" rows="1" cols="1"></textarea></td>
+                    <td><textarea class="l" maxlength="1" oninput="this.value = this.value.toUpperCase()" rows="1" cols="1"></textarea></td>
+                </tr>
+            </table>
+            <button onclick="submit()">Submit</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
