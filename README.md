@@ -14,8 +14,9 @@
            -- <strong>Incorrect letters</strong>.</br>
 - Simple and clean UI that allows users to input their guesses easily.</br>
     </br>
-
- ## How to Play
+## Demo
+Try demo: <a href="https://eshita-badhe.github.io/Word-Guess---Guess-it-right/">Guess it right!</a><br>
+## How to Play
 Follow these steps to play the game:<br><br>
     STEP 1: <strong>Select a level:</strong> Choose from three levels—3-letter words, 4-letter words, or 5-letter words.</br>
     STEP 2: <strong>Guess the word:</strong> The game provides you with an empty input field for each letter of the word. Type in your guesses and submit them.</br>
